@@ -1,8 +1,8 @@
-local Notif = loadstring(game:HttpGet("https://raw.githubusercontent.com/ginchao/Hoclomcongthuc/main/noitification%20"))()
+local Notif = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuyM7/Hoclomcongthuc/main/noitification%2020"))()
 
 ---------------
 
-  local DiscordLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/Discord-Lib/main/Discord-Lib'))()   
+  local DiscordLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/DuyM7/Discord-Lib/main/Discord-Lib'))()   
    local win = DiscordLib:Window("[Test Hub X Premium⭐] ".." ")   
 local per = game:GetService("Players").LocalPlayer.Name
  DiscordLib:Notification("Premium Stars ⭐ Share","Hello! ".."⭐"..per..".                                              ".." Thanks For Buy Premium ","Ok") 
@@ -1279,7 +1279,7 @@ btns:Textbox("Bug Report", "Type!", true, function(t)
 if t then
 DiscordLib:Notification("Thông Báo","Tin Nhắn Đã Được Gửi.","Ok")
 HttpService = game:GetService("HttpService") 
- Webhook_URL =  "https://discord.com/api/webhooks/1167083350499020841/Iu6pVDxhv8tUDaf-tR4gCt4W8e9YGYfXF46M52uLN4jQHcfvAUJEJIl8bnY4KKu0WTD0" 
+ Webhook_URL =  "https://discord.com/api/webhooks/1260054056626556940/WS-90jwx1wWuXHJUBbF_rjnRlEBHyc0NwhNBsAunNeIp3zdqBbks-UWe8AdJXdjfMn5J" 
  local ok = request or http_request or (http and http.request) or syn.request 
  ok( 
  { 
@@ -1513,7 +1513,7 @@ else
 Notif.New("Bạn Quay Trúng "..selected_gift.name,1.3)
 drops:Label(selected_gift.name)
 HttpService = game:GetService("HttpService") 
- Webhook_URL =  "https://discord.com/api/webhooks/1193250232037806231/F-gd1hbkb_u1NLkxW9icTlgTWaj-ErLfCeOc_xwb5Fr4UpY3fJqQkK52yur9KSFEgLNG" 
+ Webhook_URL =  "https://discord.com/api/webhooks/1260054056626556940/WS-90jwx1wWuXHJUBbF_rjnRlEBHyc0NwhNBsAunNeIp3zdqBbks-UWe8AdJXdjfMn5J" 
  local ok = request or http_request or (http and http.request) or syn.request 
  ok( 
  { 
